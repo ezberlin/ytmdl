@@ -21,7 +21,7 @@ def _logger_provider_error(exception, name):
     """Show error if providers throw an error"""
     logger.debug('{}'.format(exception))
     logger.error(
-        "Something went wrong with {}. The program will continue with"
+        "Something went wrong with {}. The program will continue with "
         "the other providers. Please check '{}' for more details.\
             ".format(name, logger.get_log_file()))
 
